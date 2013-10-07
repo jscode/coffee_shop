@@ -1,0 +1,36 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+----------------------------------------------------------------------------------------*/
+#container {
+	padding: 1.618em;
+	margin: 0 auto;
+	max-width: 60em;
+	}
+
+h1 span {
+font-family: "proxima-nova-1","proxima-nova-2", arial, helvetica, sans-serif;
+text-transform: uppercase;
+letter-spacing:0.1em;
+font-size:0.382em;
+line-height:1.5em;
+display:block;
+}
+
+h1 mission {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+}
+h3, h2 {
+	font-family: "proxima-nova-1","proxima-nova-2", arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing:0.1em;
+	font-size:0.382em;
+	line-height:1.5em;
+	display:block;
+}
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 63.236em) {
+
+#container { width: 50em; }
+
+}

@@ -1,0 +1,235 @@
+/*
+Goldilocks Approach to Responsive Web Design Boilerplate
+
+Author: Design by Front - @designbyfront
+Version: 0.1
+URL: http://www.goldilocksapproach.com
+----------------------------------------------------------------------------------------
+
+CONTENTS - GLOBAL.CSS
+-----------------------------------------
+1. RESET
+2. ROOT
+3. CORE TYPOGRAPHY
+4. LINKS
+5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+7. BROWSER AND NON-SEMANTIC STYLING
+
+CONTENTS - LAYOUT.CSS
+-----------------------------------------
+8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+
+*/
+
+
+/* 1. RESET
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+
+
+/* 2. ROOT
+----------------------------------------------------------------------------------------*/
+html {
+  overflow-y: scroll;
+  background: #FFF;
+  }
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+img, embed, object, video { max-width: 100%; }
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video { width: 100%; }
+
+
+/* 3. CORE TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.618em;
+  background-image: url('../images/uyic8m8.png');
+  color: #FFF;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.809em;
+  line-height: 1em;
+  }
+
+p, ul, ol, dl, blockquote {
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom: 1.618em;
+    max-width: 30em; /* Optimal width for long-form text */
+  }
+
+ul { list-style-type: disc; margin-left: 1.618em; }
+ol { list-style-type: decimal; margin-left: 1.618em; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0;}
+
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+small { font-size: 80%; }
+
+
+/* 4. LINKS
+----------------------------------------------------------------------------------------*/
+a, a:visited { outline: none; color: #439BBD; text-decoration: underline; }
+a:hover { outline: none; text-decoration:none; }
+a:active, a:focus { outline: none; }
+
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+
+h1 {
+text-align: center;
+font-size: 2.618em;
+line-height: 1.2em;
+}
+
+
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+----------------------------------------------------------------------------------------*/
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2.mission {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 400px;
+  font-size: 1em;
+  text-align: center;
+  width: 960px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0 20em 0 1em;
+
+}
+
+h2 img {
+  position: absolute;
+  top: -11em;
+  left: 675px;
+  width: 50%;
+
+}
+
+address {
+  text-align: center;
+  font-family: 'Sanchez', serif, "Helvetica Neue", Arial, Helvetica,
+                sans-serif;
+  padding-bottom: 1em;
+}
+
+#container {
+    padding: 0.809em;
+    max-width: 30em;
+    margin: auto;
+  }
+
+#menu {
+  width:100%;
+  float:left;
+  margin: 1em 0 0 0;
+  padding-bottom: 0em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: ;
+}
+
+#menu ul {
+  list-style-type: none;
+  width: auto;
+  margin: auto;
+  /* margin: 0 0em 0 18em; */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#menu li {
+  float: left;
+  padding: 1em 1em 0em 1em;
+  width: 18%;
+/* top right bottom left */
+  }
+
+#menu a {
+
+}
+
+#menu li a {
+  display: inline-block;
+  /* border: 0 #000 solid; */
+  border-bottom: none;
+  padding: 5px 20px 3em 15px;
+  /* background-color:rgba(102, 58, 13, 0.590); */
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  width: 75px;
+  margin-right: 0em;
+  background-image: url('../images/coffee_cup_vector.png');
+  background-repeat: no-repeat;
+  background-size: 110px 75px;
+  background-position: top;
+}
+
+footer {
+  text-align: center;
+}
+aside { width: 100%; }
+
+/* header h2:before {
+  content:"";
+  border-bottom:1px solid #333;
+  height: 1.618em;
+  width: 35%;
+  display: block;
+  float: left;
+}
+
+header h2:after {
+  content:"";
+  border-bottom:1px solid #333;
+  height: 1.618em;
+  width: 35%;
+  display: block;
+  float: right;
+}
+ */
+
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+----------------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content: ""; display: block; }
+.cf:after { clear: both; }
+.ie6 .cf { zoom: 1 }
