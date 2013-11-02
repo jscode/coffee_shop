@@ -3,13 +3,16 @@
 <?php include ("header.html"); ?>
 <?php include ("nav_menu.html"); ?>
 
+</div>
+
+<div id="container" class="cf">
 
 
-<h1>Contact Us</h1>
+<h1 class="formTitle">Contact Us</h1>
 <form class="contact">
 
     <label for="name">Your Name</label>
-    <input name="name" type="text">
+    <input name="name" autofocus="autofocus" type="text">
 
     <label for="email">Email</label>
     <input name="email" type="email">
