@@ -109,6 +109,7 @@ h1 {
 text-align: center;
 font-size: 2.618em;
 line-height: 1.2em;
+font-family: 'Source Sans Pro', sans serif;
 }
 
 
@@ -209,6 +210,9 @@ footer {
 }
 aside { width: 100%; }
 
+.coffee img {
+  padding-left: 40px;
+}
 .gallery figure {
   display: inline-block;
   width: 700px;
@@ -238,6 +242,7 @@ h1.formTitle {
 padding-top: 10em;
   height: auto;
   padding-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .contact {
   width: auto;
@@ -274,15 +279,16 @@ height:213px;
     position: relative;
     width:127px;
     height:38px;
-    border:none;
+    border: 1px #EFE9E9 solid;
+    border-radius: 20px;
     margin-right: 150px;
     margin-top:20px;
     cursor:pointer;
-    
+
 }
 
   #submit:hover {
-      opacity:.9;
+      opacity: .3;
   }
 /* header h2:before {
   content:"";
